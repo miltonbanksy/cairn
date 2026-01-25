@@ -1,0 +1,298 @@
+[
+    {
+        "title": "Aurifex",
+        "description": "You are an artisan of the arcane, a smith of subtle forces. In the crucible of your workshop, the laws that govern this world are warped to suit your needs.",
+        "names": [
+            "Hestia",
+            "Basil",
+            "Rune",
+            "Prism",
+            "Ember",
+            "Quintess",
+            "Aludel",
+            "Mordant",
+            "Salaman",
+            "Jazia"
+        ],
+        "gear": [
+            "Lantern",
+            "Oil Can (6 uses)",
+            "Needle-knife (d6)",
+            "Protective Gloves (petty)"
+        ],
+        "prompt1Title": "What went horribly wrong? Roll 1d6:",
+        "prompt1Answers": [
+            "There was an explosion, and you lost your sense of smell. Well, almost: you can sniff out gold as a pig does truffles. Take a Tin of Snuff (6 uses) to dampen the impact. Use it every day or become deprived.",
+            "You dematerialized a beloved pet. Now it follows you around, invisible but always present. Although it cannot interact with the physical realm, you are able to share its senses. (Add a Fatigue each time.) It follows basic commands.",
+            "You were exposed to a long-acting truth serum whose effects have yet to wear off. The disorder has its advantages: you cannot repeat lies you've heard, either.",
+            "You were adept at creating fake gold, which is almost as good. Eventually, your ruse was discovered, and you had to make a hasty retreat. Take a heavy Metal Ingot and Gold Powder (3 uses).",
+            "Your alchemical recipe worked, but a rival stole the blueprint before your claims could be proven. Take a prototype Blunderbuss (d12, blast, bulky) that takes one round to reload, and a taste for revenge.",
+            "Ridiculed for discovering how to turn gold into lead, you were a laughing stock. Take a bottle of Universal Solvent (2 uses) that dissolves anything it touches into its constituent parts."
+        ],
+        "prompt2Title": "What alchemical marvel is the product of your latest ingenuity? Roll 1d6:",
+        "prompt2Answers": [
+            "Pyrophoric Gel. A sticky green fluid that catches fire when exposed to air, then burns for 8 hours. Cannot be extinguished (1 use).",
+            "Blast Sphere. A head-sized iron ball filled with explosive powder that detonates on impact (d12, blast, bulky, 1 use).",
+            "Aqua Vita. Purifies any liquid, converting it to pure water. Drinking it cures 1d6 STR (1 use).",
+            "Mimic Stone. Records a short phrase that can later be played back.",
+            "Spark Dust. Ignites easily and quickly. Useful for starting a fire or as an incendiary device (3 uses).",
+            "Homunculus. A miniature clay replica of yourself that follows your every command. It hates being enthralled to you and complains bitterly whenever possible. Any damage done to the homunculus is also done to you. 3 HP, 4 STR, 13 DEX, 5 WIL"
+        ]
+    },
+    {
+        "title": "Barber Surgeon",
+        "description": "You walk the line between healer and harrower, knowing the frailty of the flesh but also the secrets that lie within. With the right tools, life and death are merely words.",
+        "names": [
+            "Wilmot",
+            "Patch",
+            "Lancet",
+            "Sawbones",
+            "Theo",
+            "Cutwell",
+            "Humor",
+            "Landsford",
+            "Goodeye",
+            "Johanna"
+        ],
+        "gear": [
+            "Bonesaw (d6)",
+            "Bandages (3 uses)",
+            "Leech (restores 1 STR, 3 uses)",
+            "Stained Medical Finery (petty)"
+        ],
+        "prompt1Title": "How have you “improved” yourself? Roll 1d6:",
+        "prompt1Answers": [
+            "You have a replacement eye that can magnify objects act as a telescope and provide minimal night vision You cannot wear anything metal on your head and the presence of strong magnets make you deprived",
+            "One foot is mostly metal kick d6 and you treat some Tough terrain as Easy Carry a Oil Can 6 uses Without a daily application you are deprived and noisy",
+            "One of your fingers has been swapped the bone replaced by gold and iron Take a Hook and a Screwdriver that can attach to the fingertip",
+            "Both ears have been surgically enhanced tripling your hearing You can focus on a specific sound such as a conversation at a great distance You wear an ear flap to protect against sudden loud noises WIL save to avoid temporary paralysis",
+            "Your chest is lined with alchemical sigils toughening the skin 1 Armor Wearing other metallic armor nullifies the effect",
+            "One arm is fully metal and comes off at the shoulder It can be used as a weapon d8 bulky when not attached and can move independently if you are within sight of it"
+        ],
+        "prompt2Title": "What rare tool is essential to your work? Roll 1d6:",
+        "prompt2Answers": [
+            "Regrowth Salve. Regrows a body part over the course of a day. 1 use.",
+            "Graftgrub. A small worm that can fuse inanimate objects with parts of the body. 1 use.",
+            "Woundwax. Heals wounds from fire or chemicals (restoring full STR) but nothing else. 2 uses.",
+            "Quicksilver. A stimulant. Go first in combat, and automatically pass any WIL saves for one hour. Addictive: Save STR or become deprived after 24 hours without it. 4 uses.",
+            "Pneuma Pump. Portable iron lungs (bulky). Enables life-saving surgery or underwater breathing.",
+            "Lodestone. Draws out dangerous elements from the body and acts as a powerful magnetic force."
+        ]
+    },
+    {
+        "title": "Beast Handler",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Bone Keeper",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Cutpurse",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Fieldwarden",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Fletchwind",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Foundling",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Fungal Keeper",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Greenwise",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Half-Witch",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Hexenbane",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Jongleur",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Kettlewright",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Marchguard",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Mountebank",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+        },
+    {
+        "title": "Outrider",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Prowler",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Rill-Runner",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    },
+    {
+        "title": "Scrivener",
+        "description": "",
+        "names": [],
+        "gear": [
+            ""
+        ],
+        "prompt1Title": "",
+        "prompt1Answers": [],
+        "prompt2Title": "",
+        "prompt2Answers": []
+    }
+]
