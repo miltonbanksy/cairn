@@ -8,6 +8,10 @@ let backgroundsData = [];
 
 fetch('backgrounds.json').then(res => res.json()).then(data => backgroundsData = data);
 
+function roll1dx(size_of_dice) {
+    return Math.floor(Math.random() * size_of_dice) + 1;
+}
+
 function roll_xdx(number_of_dice, size_of_dice) {
     let dicePool = [];
     for (let d = 0; d < number_of_dice; d++) {
@@ -47,6 +51,8 @@ function generateCharacter() {
     const promptTitle2 = background.promptTitle2;
     const promptAnswers2 = generateCharacterAspect(background.promptAnswers2);
     const attributes = generateAttributes();
+    const hitProtection = roll1dx(6);
+    console.log(hitProtection)
     
     return {
         background,
@@ -56,7 +62,8 @@ function generateCharacter() {
         promptAnswers1,
         promptTitle2,
         promptAnswers2,
-        attributes
+        attributes,
+        hitProtection
     }
 }
 
@@ -65,15 +72,16 @@ btnCreateCharacter.addEventListener('click', () => {
 
     displayCharacter.innerHTML = `
         <h2>${character.name} the ${character.background.title}</h2>
+        <h3>HP ${character.hitProtection},
         STR ${character.attributes.STR.value},
         DEX ${character.attributes.DEX.value},
-        WIL ${character.attributes.WIL.value}
-        <br><br>${character.background.description}
+        WIL ${character.attributes.WIL.value}</h3>
+        ${character.background.description}
         <h3>Gear</h3>
         ${character.gear.join(", ")}
-        <br><br>${character.promptTitle1}
+        <br><br><i>${character.promptTitle1}</i>
         <br>${character.promptAnswers1}
-        <br><br>${character.promptTitle2}
+        <br><br><i>${character.promptTitle2}</i>
         <br>${character.promptAnswers2}
     `;
 });
