@@ -6,9 +6,11 @@ const displayCharacter = document.getElementById('display-character');
 
 let backgroundsData = [];
 let traitsData = [];
+let bondsData = [];
 
 fetch('backgrounds.json').then(res => res.json()).then(data => backgroundsData = data);
 fetch('traits.json').then(res => res.json()).then(data => traitsData = data);
+fetch('bonds.json').then(res => res.json()).then(data => bondsData = data);
 
 function roll1dx(size_of_dice) {
     return Math.floor(Math.random() * size_of_dice) + 1;
@@ -60,6 +62,11 @@ function generateTraits() {
     return result;
 }
 
+function generateBond() {
+    const index = Math.floor(Math.random() * bondsData.length);
+    return bondsData[index];
+}
+
 function generateCharacter() {
     const background = generateCharacterAspect(backgroundsData);
     const name = generateCharacterAspect(background.names);
@@ -75,6 +82,7 @@ function generateCharacter() {
     const traitPrint = Object.entries(traits)
         .map(([key, value]) => `<div>${key}: ${value}</div>`)
         .join('');
+    const bond = generateBond();
         
 
     return {
@@ -87,7 +95,8 @@ function generateCharacter() {
         promptAnswers2,
         attributes,
         hitProtection,
-        traitPrint
+        traitPrint,
+        bond
     }
 }
 
@@ -105,6 +114,8 @@ btnCreateCharacter.addEventListener('click', () => {
         ${character.traitPrint}
         <h3>Gear</h3>
         ${character.gear.join(", ")}
+        <h3>Bond</h3>
+        ${character.bond}
         <br><br><i>${character.promptTitle1}</i>
         <br>${character.promptAnswers1}
         <br><br><i>${character.promptTitle2}</i>
