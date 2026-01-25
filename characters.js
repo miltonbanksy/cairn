@@ -1,7 +1,4 @@
-const standard_gear = [
-    "Rations (3 uses)",
-    "Torch (3 uses)"
-]
+const standard_gear = ["Rations (3 uses)", "Torch (3 uses)"];
 
 const btnCreateCharacter = document.getElementById('btn-create-character');
 const displayCharacter = document.getElementById('display-character');
@@ -27,16 +24,21 @@ function generateCharacterAspect(data) {
 function generateCharacter() {
     const background = generateCharacterAspect(backgroundsData);
     const name = generateCharacterAspect(background.names);
-    const gear = [...standard_gear, ...background.gear];
     const gold = `${roll_xdx(3, 6)} Gold Pieces`;
-
-    gear.unshift(gold);
-
+    const gear = [gold, ...standard_gear, ...background.gear];
+    const promptTitle1 = background.promptTitle1;
+    const promptAnswers1 = generateCharacterAspect(background.promptAnswers1);
+    const promptTitle2 = background.promptTitle2;
+    const promptAnswers2 = generateCharacterAspect(background.promptAnswers2);
+    
     return {
         background,
         name,
         gear,
-        gold
+        promptTitle1,
+        promptAnswers1,
+        promptTitle2,
+        promptAnswers2
     }
 }
 
@@ -48,5 +50,9 @@ btnCreateCharacter.addEventListener('click', () => {
         <br><br>${character.background.description}
         <br><br>Gear
         <br>${character.gear.join(", ")}
+        <br><br>${character.promptTitle1}
+        <br>${character.promptAnswers1}
+        <br><br>${character.promptTitle2}
+        <br>${character.promptAnswers2}
     `;
 });

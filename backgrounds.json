@@ -20,8 +20,8 @@
             "Needle-knife (d6)",
             "Protective Gloves (petty)"
         ],
-        "prompt1Title": "What went horribly wrong? Roll 1d6:",
-        "prompt1Answers": [
+        "promptTitle1": "What went horribly wrong? Roll 1d6:",
+        "promptAnswers1": [
             "There was an explosion, and you lost your sense of smell. Well, almost: you can sniff out gold as a pig does truffles. Take a Tin of Snuff (6 uses) to dampen the impact. Use it every day or become deprived.",
             "You dematerialized a beloved pet. Now it follows you around, invisible but always present. Although it cannot interact with the physical realm, you are able to share its senses. (Add a Fatigue each time.) It follows basic commands.",
             "You were exposed to a long-acting truth serum whose effects have yet to wear off. The disorder has its advantages: you cannot repeat lies you've heard, either.",
@@ -29,8 +29,8 @@
             "Your alchemical recipe worked, but a rival stole the blueprint before your claims could be proven. Take a prototype Blunderbuss (d12, blast, bulky) that takes one round to reload, and a taste for revenge.",
             "Ridiculed for discovering how to turn gold into lead, you were a laughing stock. Take a bottle of Universal Solvent (2 uses) that dissolves anything it touches into its constituent parts."
         ],
-        "prompt2Title": "What alchemical marvel is the product of your latest ingenuity? Roll 1d6:",
-        "prompt2Answers": [
+        "promptTitle2": "What alchemical marvel is the product of your latest ingenuity? Roll 1d6:",
+        "promptAnswers2": [
             "Pyrophoric Gel. A sticky green fluid that catches fire when exposed to air, then burns for 8 hours. Cannot be extinguished (1 use).",
             "Blast Sphere. A head-sized iron ball filled with explosive powder that detonates on impact (d12, blast, bulky, 1 use).",
             "Aqua Vita. Purifies any liquid, converting it to pure water. Drinking it cures 1d6 STR (1 use).",
@@ -60,8 +60,8 @@
             "Leech (restores 1 STR, 3 uses)",
             "Stained Medical Finery (petty)"
         ],
-        "prompt1Title": "How have you “improved” yourself? Roll 1d6:",
-        "prompt1Answers": [
+        "promptTitle1": "How have you “improved” yourself? Roll 1d6:",
+        "promptAnswers1": [
             "You have a replacement eye that can magnify objects act as a telescope and provide minimal night vision You cannot wear anything metal on your head and the presence of strong magnets make you deprived",
             "One foot is mostly metal kick d6 and you treat some Tough terrain as Easy Carry a Oil Can 6 uses Without a daily application you are deprived and noisy",
             "One of your fingers has been swapped the bone replaced by gold and iron Take a Hook and a Screwdriver that can attach to the fingertip",
@@ -69,8 +69,8 @@
             "Your chest is lined with alchemical sigils toughening the skin 1 Armor Wearing other metallic armor nullifies the effect",
             "One arm is fully metal and comes off at the shoulder It can be used as a weapon d8 bulky when not attached and can move independently if you are within sight of it"
         ],
-        "prompt2Title": "What rare tool is essential to your work? Roll 1d6:",
-        "prompt2Answers": [
+        "promptTitle2": "What rare tool is essential to your work? Roll 1d6:",
+        "promptAnswers2": [
             "Regrowth Salve. Regrows a body part over the course of a day. 1 use.",
             "Graftgrub. A small worm that can fuse inanimate objects with parts of the body. 1 use.",
             "Woundwax. Heals wounds from fire or chemicals (restoring full STR) but nothing else. 2 uses.",
@@ -86,10 +86,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Bone Keeper",
@@ -98,10 +98,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Cutpurse",
@@ -110,10 +110,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Fieldwarden",
@@ -122,10 +122,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Fletchwind",
@@ -134,10 +134,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Foundling",
@@ -146,10 +146,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Fungal Keeper",
@@ -158,10 +158,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Greenwise",
@@ -170,10 +170,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Half-Witch",
@@ -182,10 +182,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Hexenbane",
@@ -194,10 +194,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Jongleur",
@@ -206,10 +206,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Kettlewright",
@@ -218,10 +218,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Marchguard",
@@ -230,10 +230,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Mountebank",
@@ -242,10 +242,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
         },
     {
         "title": "Outrider",
@@ -254,10 +254,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Prowler",
@@ -266,10 +266,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Rill-Runner",
@@ -278,10 +278,10 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     },
     {
         "title": "Scrivener",
@@ -290,9 +290,9 @@
         "gear": [
             ""
         ],
-        "prompt1Title": "",
-        "prompt1Answers": [],
-        "prompt2Title": "",
-        "prompt2Answers": []
+        "promptTitle1": "",
+        "promptAnswers1": [],
+        "promptTitle2": "",
+        "promptAnswers2": []
     }
 ]
