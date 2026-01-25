@@ -46,10 +46,10 @@ btnCreateCharacter.addEventListener('click', () => {
     const character = generateCharacter();
 
     displayCharacter.innerHTML = `
-        ${character.name} the ${character.background.title}
-        <br><br>${character.background.description}
-        <br><br>Gear
-        <br>${character.gear.join(", ")}
+        <h2>${character.name} the ${character.background.title}</h2>
+        ${character.background.description}
+        <h3>Gear</h3>
+        ${character.gear.join(", ")}
         <br><br>${character.promptTitle1}
         <br>${character.promptAnswers1}
         <br><br>${character.promptTitle2}
