@@ -7,10 +7,12 @@ const displayCharacter = document.getElementById('display-character');
 let backgroundsData = [];
 let traitsData = [];
 let bondsData = [];
+let omensData = [];
 
 fetch('backgrounds.json').then(res => res.json()).then(data => backgroundsData = data);
 fetch('traits.json').then(res => res.json()).then(data => traitsData = data);
 fetch('bonds.json').then(res => res.json()).then(data => bondsData = data);
+fetch('omens.json').then(res => res.json()).then(data => omensData = data);
 
 function roll1dx(size_of_dice) {
     return Math.floor(Math.random() * size_of_dice) + 1;
@@ -62,11 +64,6 @@ function generateTraits() {
     return result;
 }
 
-function generateBond() {
-    const index = Math.floor(Math.random() * bondsData.length);
-    return bondsData[index];
-}
-
 function generateCharacter() {
     const background = generateCharacterAspect(backgroundsData);
     const name = generateCharacterAspect(background.names);
@@ -82,9 +79,9 @@ function generateCharacter() {
     const traitPrint = Object.entries(traits)
         .map(([key, value]) => `<div>${key}: ${value}</div>`)
         .join('');
-    const bond = generateBond();
-        
-
+    const bond = generateCharacterAspect(bondsData);
+    const omen = generateCharacterAspect(omensData);
+    
     return {
         background,
         name,
@@ -96,7 +93,8 @@ function generateCharacter() {
         attributes,
         hitProtection,
         traitPrint,
-        bond
+        bond,
+        omen
     }
 }
 
@@ -116,6 +114,8 @@ btnCreateCharacter.addEventListener('click', () => {
         ${character.gear.join(", ")}
         <h3>Bond</h3>
         ${character.bond}
+        <h3>Omen</h3>
+        ${character.omen}
         <br><br><i>${character.promptTitle1}</i>
         <br>${character.promptAnswers1}
         <br><br><i>${character.promptTitle2}</i>
