@@ -5,8 +5,10 @@ const btnCreateCharacter = document.getElementById('btn-create-character');
 const displayCharacter = document.getElementById('display-character');
 
 let backgroundsData = [];
+let traitsData = [];
 
 fetch('backgrounds.json').then(res => res.json()).then(data => backgroundsData = data);
+fetch('traits.json').then(res => res.json()).then(data => traitsData = data);
 
 function roll1dx(size_of_dice) {
     return Math.floor(Math.random() * size_of_dice) + 1;
@@ -41,6 +43,23 @@ function generateAttributes() {
     return stats;
 }
 
+function generateTraits() {
+    const result = {};
+    for (const key in traitsData) {
+        if (Object.hasOwnProperty.call(traitsData, key)) {
+            const currentArray = traitsData[key];
+
+            if (Array.isArray(currentArray) && currentArray.length > 0) {
+                const randomIndex = Math.floor(Math.random() * currentArray.length);
+                result[key] = currentArray[randomIndex];
+            } else {
+                result[key] = undefined;
+            }
+        }
+    }
+    return result;
+}
+
 function generateCharacter() {
     const background = generateCharacterAspect(backgroundsData);
     const name = generateCharacterAspect(background.names);
@@ -52,8 +71,12 @@ function generateCharacter() {
     const promptAnswers2 = generateCharacterAspect(background.promptAnswers2);
     const attributes = generateAttributes();
     const hitProtection = roll1dx(6);
-    console.log(hitProtection)
-    
+    const traits = generateTraits();
+    const traitPrint = Object.entries(traits)
+        .map(([key, value]) => `<div>${key}: ${value}</div>`)
+        .join('');
+        
+
     return {
         background,
         name,
@@ -63,7 +86,8 @@ function generateCharacter() {
         promptTitle2,
         promptAnswers2,
         attributes,
-        hitProtection
+        hitProtection,
+        traitPrint
     }
 }
 
@@ -77,6 +101,8 @@ btnCreateCharacter.addEventListener('click', () => {
         DEX ${character.attributes.DEX.value},
         WIL ${character.attributes.WIL.value}</h3>
         ${character.background.description}
+        <h3>Traits</h3>
+        ${character.traitPrint}
         <h3>Gear</h3>
         ${character.gear.join(", ")}
         <br><br><i>${character.promptTitle1}</i>
