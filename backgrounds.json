@@ -81,51 +81,163 @@
     },
     {
         "title": "Beast Handler",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You alone can walk among the creatures of the wild, fearless and in control. You share a connection with animals that others can only dream of… so long as you don't become their snack.",
+        "names": [
+            "Amara",
+            "Wulf",
+            "Mireille",
+            "Soren",
+            "Freki",
+            "Aster",
+            "Gerrik",
+            "Boreas",
+            "Veda",
+            "Matheus"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Leather Whip (d6)",
+            "Soporific Darts (STR save or fall asleep, 6 uses)",
+            "Lure",
+            "Rope (25ft)"
+        ],
+        "promptTitle1": "What creature is your specialty?",
+        "promptAnswers1": [
+            "Arachnids. Take a Quick-Flame Rod and an Oil Can (6 uses). It can destroy a large spider nest in seconds.",
+            "Felines. Take a sack of Whiskerwort. Its odor can calm and control even the largest of cats.",
+            "Canines. Take a wreath of Wolfsbane and a Large Net. Effective against werewolves as well.",
+            "Birds. Take a Warble-Whistle (3 charges). It can imitate any bird call and can even be used to send simple messages. Recharge: Feed a baby bird as its mother would, then blow.",
+            "Rodents. Take a Pan Flute that emits a high-pitched sound that only rodents can hear. So long as you play, they will follow, even to their deaths.",
+            "Serpents. Take a Warming Stone that generates an irresistible heat and a vial of Antitoxin (2 uses)."
+        ],
+        "promptTitle2": "What have you learned from the creatures of the wild?",
+        "promptAnswers2": [
+            "That there is far more to the world than meets the eye. With quiet concentration, you can borrow the senses of a nearby creature of your specialty.",
+            "That the behavior of beasts is a language in itself. When observing beasts of your specialty you gain insight into weather patterns and impending disasters.",
+            "That the pulse of the hunt is a powerful impulse. You have a sense for when predators, even those not of your specialty are near.",
+            "That the land is a language unto itself. Your chance of becoming lost in a terrain dominated by the beasts of your specialty is reduced by one step (e.g. 4-in-6 becomes 3-in-6).",
+            "That nature’s symphony can be heard if you attune to its rhythm. When surrounded by creatures of your specialty, they can alert you to approaching danger before it arrives.",
+            "That survival is all about adaptability. Once per day, you may take on a simple feature from a creature of your specialty (webbed fingers, night vision, etc.). Add a Fatigue each time."
+        ]
     },
     {
         "title": "Bone Keeper",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You are a shepherd to the departed. You listen to the final whispers of the dead as they descend into the cold, unyielding earth. You know that to fully celebrate the gift of life, we must honor its finale as well.",
+        "names": [
+            "Rook",
+            "Ebon",
+            "Moro",
+            "Yew",
+            "Pall",
+            "Leth",
+            "Bea",
+            "Barnaby",
+            "Vesper",
+            "Leder"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Lantern",
+            "Oil Can (6 uses)",
+            "Stake (d6)",
+            "Chains (10ft)"
+        ],
+        "promptTitle1": "What did you take from the dead?",
+        "promptAnswers1": [
+            "A crow-shaped amulet. You can ask a question of the dead but must add a Fatigue each time. They do not always speak truthfully.",
+            "A mortal wound from a freed revenant. You were healed, but the disfigurement has made you a pariah. You require neither air nor sustenance but are still subject to pain and death. Trapped between worlds, the dead see you as one of their own.",
+            "A Blood Pail (bulky) from a local death-cult. Empty it to raise a servant built from whatever is buried below, with 6 HP, 1 Armor, 13 STR, 11 DEX, 4 WIL, and shard fists (d8+d8). Only one servant can be raised at a time. If destroyed, you permanently lose 1d4 STR. Recharge: Fill with the blood of a dying warrior.",
+            "A burial wagon (+6 slots, slow) from your last job. It came with a stubborn old donkey (+4 slots, only +2 slots if pulling wagon).",
+            "The Detect Magic Spellbook, stolen from an ancient library. Your family worked in service to an obscure underworld deity, but you lost your faith. Though exiled, you continue to serve, even as an apostate. Detect Magic: You can see or hear nearby magical auras. Becomes warm to the touch when magic is used nearby.",
+            "A plague doctor’s mask, after its owner succumbed to the disease that wiped out everyone you once knew. They should have kept it on."
+        ],
+        "promptTitle2": "What tool was invaluable in your work?",
+        "promptAnswers2": [
+            "Manacles. Though old, it’s still effective even against the very strong. You don’t have the key.",
+            "Sponge. Supposedly made from the remains of a rare sea creature. It never seems to dry out.",
+            "Pulley. Great for moving gravestones, rocks, or even bodies.",
+            "Incense. Perfect for rituals or to keep the flies at bay. Cools the blood.",
+            "Crowbar. d6 damage. Sometimes you just need to get the damn thing open!",
+            "Repellent. Powerful stuff. Its faded label makes it unclear what it is actually meant to repel, though. Perhaps everything. 3 uses."
+        ]
     },
     {
         "title": "Cutpurse",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You live in the grey space between those who have power and those who don’t. You find opportunity where others see only chaos. With nimble fingers, you unburden both the richest merchant and the lowliest guard.",
+        "names": [
+            "Arlo",
+            "Lyra",
+            "Eamon",
+            "Salina",
+            "Elara",
+            "Freya",
+            "Bull",
+            "Sparrow",
+            "Ivy",
+            "Silas"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Twin Daggers (d6+d6, bulky)",
+            "Padded Leather (1 Armor)",
+            "Lockpicks",
+            "Black Outfit (petty)"
+        ],
+        "promptTitle1": "What was your last big job?",
+        "promptAnswers1": [
+            "A noble’s summer home. The place was full of fancy wine (+20gp) but not much else. Take Fence Cutters.",
+            "A bank. (You were caught.) You bear a brand only visible by firelight, and anyone who sees the mark can ask you for a beer. Take Retractable Wires.",
+            "A guild warehouse. Take a Ladder (bulky, 10ft) and Blinding Powder (1 use).",
+            "Moneylender. Someone beat you to the job but left behind a Scroll of Arcane Eye (petty). Arcane Eye: You can see through a magical floating eyeball that flies around at your command.",
+            "Constable’s quarters. You escaped but left some friends behind. Take Strong Silk Rope (30ft) and a queasy feeling.",
+            "A university. You were seen but not pursued. You still don’t know why. Take Smoke Pellets (3 uses)."
+        ],
+        "promptTitle2": "What helps you steal?",
+        "promptAnswers2": [
+            "Catring. 2 charges. Climb up walls and fall safely. Recharge: Place the ring on a stray cat’s tail.",
+            "Gildfinger. 1 charge. A finger glove that mimics any mundane key. Recharge: Bundle it with at least 100gp for a night.",
+            "Glimpse Glass. 3 uses. A monocle that lets you see through walls or other obstructions. It shatters after the last use.",
+            "Sweetwhistle. 1 charge. Listeners hear a soft, familiar voice in the distance that they cannot resist following. Recharge: Lose a dear memory. (Describe it.)",
+            "Vagrant’s Veil. 1 charge. Wear it to blend seamlessly into crowds, appearing as a simple pauper. Recharge: Donate the day’s winnings to the poor. Petty",
+            "Reverse Teetotum. 1 use. When spun, time skips backwards 30 seconds. Everyone remembers what happened."
+        ]
     },
     {
         "title": "Fieldwarden",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "Protectors of the harvest, defense against pests, thieves, and beasts. A position of great honor, while it lasts: many guardians do not live out their natural lives. Roll a second time on the Bonds table.",
+        "names": [
+            "Seed",
+            "Thresh",
+            "Dibber",
+            "Sow",
+            "Stalk",
+            "Harrow",
+            "Cobb",
+            "Flax",
+            "Briar",
+            "Rye"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Brigandine (1 Armor, bulky)",
+            "Sling (d6)",
+            "Hand Axe (d6)",
+            "Repellent (pick the type, 3 uses)"
+        ],
+        "promptTitle1": "What got the better of you?",
+        "promptAnswers1": [
+            "A voracious swarm of pests that swallowed crops and animals alike. With nothing to defend, you left. Take Gale Seed Extract (3 uses). Ingesting it lets you sprint with a speed four times your regular rate. Afterward you add two Fatigue.",
+            "A crop spirit, angered by a poor tithing. The fires consumed nearly everything, and afterward you were able to gather a pouch of Fireseeds (d8, blast, 4 uses).",
+            "An antlered, toothy demon that nearly ended you. Take a blood-stained Bone Knife (d6). On Critical Damage, its next attack becomes enhanced from contact with blood.",
+            "The Withering, a type of stem rot from the Roots. Take a Diseased Crop (6 uses) that quickly decays any plant it touches.",
+            "Wolves, or so you thought. You are now a Werewolf [8 HP, 15 STR, 14 DEX, claws (d6+d6), bite (d8)]. Your WIL remains the same. You can turn at will (once per day) but must make a WIL save to revert. Anyone left alive from your attacks must make a WIL save to avoid infection.",
+            "Crop thieves. Not all of them survived, but you were outnumbered. Start with +d4 HP and a Cusped Falchion (d8)."
+        ],
+        "promptTitle2": "What tool saved your life?",
+        "promptAnswers2": [
+            "Bloodvine Whip. d8 damage. On Critical Damage, it drains the target’s blood, granting the weapon’s next attack the blast quality",
+            "Clatter Keeper. A hand-cranked device that emits a loud noise, frightening away most creatures.",
+            "Sun Stick. Provides ample warmth and light for up to one hour. Recharge: Leave in heavy sunlight for a full day. 1 use.",
+            "Root Tether. When thrown, binds a creature as large as a wolf to the soil for a short time.",
+            "Greenwhistle. A small flute that calms plants, making passage through areas heavy with plant life a bit easier.",
+            "Everbloom Band. A circlet adorned with flowers that never wilt. On Critical Damage, the flowers dissolve into dust, but you act as if your save succeeded (STR loss still occurs)."
+        ]
     },
     {
         "title": "Fletchwind",
