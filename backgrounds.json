@@ -115,7 +115,7 @@
             "That the behavior of beasts is a language in itself. When observing beasts of your specialty you gain insight into weather patterns and impending disasters.",
             "That the pulse of the hunt is a powerful impulse. You have a sense for when predators, even those not of your specialty are near.",
             "That the land is a language unto itself. Your chance of becoming lost in a terrain dominated by the beasts of your specialty is reduced by one step (e.g. 4-in-6 becomes 3-in-6).",
-            "That nature’s symphony can be heard if you attune to its rhythm. When surrounded by creatures of your specialty, they can alert you to approaching danger before it arrives.",
+            "That nature's symphony can be heard if you attune to its rhythm. When surrounded by creatures of your specialty, they can alert you to approaching danger before it arrives.",
             "That survival is all about adaptability. Once per day, you may take on a simple feature from a creature of your specialty (webbed fingers, night vision, etc.). Add a Fatigue each time."
         ]
     },
@@ -147,11 +147,11 @@
             "A Blood Pail (bulky) from a local death-cult. Empty it to raise a servant built from whatever is buried below, with 6 HP, 1 Armor, 13 STR, 11 DEX, 4 WIL, and shard fists (d8+d8). Only one servant can be raised at a time. If destroyed, you permanently lose 1d4 STR. Recharge: Fill with the blood of a dying warrior.",
             "A burial wagon (+6 slots, slow) from your last job. It came with a stubborn old donkey (+4 slots, only +2 slots if pulling wagon).",
             "The Detect Magic Spellbook, stolen from an ancient library. Your family worked in service to an obscure underworld deity, but you lost your faith. Though exiled, you continue to serve, even as an apostate. Detect Magic: You can see or hear nearby magical auras. Becomes warm to the touch when magic is used nearby.",
-            "A plague doctor’s mask, after its owner succumbed to the disease that wiped out everyone you once knew. They should have kept it on."
+            "A plague doctor's mask, after its owner succumbed to the disease that wiped out everyone you once knew. They should have kept it on."
         ],
         "promptTitle2": "What tool was invaluable in your work?",
         "promptAnswers2": [
-            "Manacles. Though old, it’s still effective even against the very strong. You don’t have the key.",
+            "Manacles. Though old, it's still effective even against the very strong. You don't have the key.",
             "Sponge. Supposedly made from the remains of a rare sea creature. It never seems to dry out.",
             "Pulley. Great for moving gravestones, rocks, or even bodies.",
             "Incense. Perfect for rituals or to keep the flies at bay. Cools the blood.",
@@ -161,7 +161,7 @@
     },
     {
         "title": "Cutpurse",
-        "description": "You live in the grey space between those who have power and those who don’t. You find opportunity where others see only chaos. With nimble fingers, you unburden both the richest merchant and the lowliest guard.",
+        "description": "You live in the grey space between those who have power and those who don't. You find opportunity where others see only chaos. With nimble fingers, you unburden both the richest merchant and the lowliest guard.",
         "names": [
             "Arlo",
             "Lyra",
@@ -182,20 +182,20 @@
         ],
         "promptTitle1": "What was your last big job?",
         "promptAnswers1": [
-            "A noble’s summer home. The place was full of fancy wine (+20gp) but not much else. Take Fence Cutters.",
+            "A noble's summer home. The place was full of fancy wine (+20gp) but not much else. Take Fence Cutters.",
             "A bank. (You were caught.) You bear a brand only visible by firelight, and anyone who sees the mark can ask you for a beer. Take Retractable Wires.",
             "A guild warehouse. Take a Ladder (bulky, 10ft) and Blinding Powder (1 use).",
             "Moneylender. Someone beat you to the job but left behind a Scroll of Arcane Eye (petty). Arcane Eye: You can see through a magical floating eyeball that flies around at your command.",
-            "Constable’s quarters. You escaped but left some friends behind. Take Strong Silk Rope (30ft) and a queasy feeling.",
-            "A university. You were seen but not pursued. You still don’t know why. Take Smoke Pellets (3 uses)."
+            "Constable's quarters. You escaped but left some friends behind. Take Strong Silk Rope (30ft) and a queasy feeling.",
+            "A university. You were seen but not pursued. You still don't know why. Take Smoke Pellets (3 uses)."
         ],
         "promptTitle2": "What helps you steal?",
         "promptAnswers2": [
-            "Catring. 2 charges. Climb up walls and fall safely. Recharge: Place the ring on a stray cat’s tail.",
+            "Catring. 2 charges. Climb up walls and fall safely. Recharge: Place the ring on a stray cat's tail.",
             "Gildfinger. 1 charge. A finger glove that mimics any mundane key. Recharge: Bundle it with at least 100gp for a night.",
             "Glimpse Glass. 3 uses. A monocle that lets you see through walls or other obstructions. It shatters after the last use.",
             "Sweetwhistle. 1 charge. Listeners hear a soft, familiar voice in the distance that they cannot resist following. Recharge: Lose a dear memory. (Describe it.)",
-            "Vagrant’s Veil. 1 charge. Wear it to blend seamlessly into crowds, appearing as a simple pauper. Recharge: Donate the day’s winnings to the poor. Petty",
+            "Vagrant's Veil. 1 charge. Wear it to blend seamlessly into crowds, appearing as a simple pauper. Recharge: Donate the day's winnings to the poor. Petty",
             "Reverse Teetotum. 1 use. When spun, time skips backwards 30 seconds. Everyone remembers what happened."
         ]
     },
@@ -231,7 +231,7 @@
         ],
         "promptTitle2": "What tool saved your life?",
         "promptAnswers2": [
-            "Bloodvine Whip. d8 damage. On Critical Damage, it drains the target’s blood, granting the weapon’s next attack the blast quality",
+            "Bloodvine Whip. d8 damage. On Critical Damage, it drains the target's blood, granting the weapon's next attack the blast quality",
             "Clatter Keeper. A hand-cranked device that emits a loud noise, frightening away most creatures.",
             "Sun Stick. Provides ample warmth and light for up to one hour. Recharge: Leave in heavy sunlight for a full day. 1 use.",
             "Root Tether. When thrown, binds a creature as large as a wolf to the soil for a short time.",
