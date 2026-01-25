@@ -1,4 +1,5 @@
 const standard_gear = ["Rations (3 uses)", "Torch (3 uses)"];
+const attributes = ["STR", "DEX", "WIL"];
 
 const btnCreateCharacter = document.getElementById('btn-create-character');
 const displayCharacter = document.getElementById('display-character');
@@ -21,6 +22,21 @@ function generateCharacterAspect(data) {
     return data[index];
 }
 
+function generateAttributes() {
+    const stats = {};
+    let attributePool = [];
+    
+    attributes.forEach(statName => {
+        const oneAttribute = roll_xdx(3, 6);
+        attributePool.push(oneAttribute);
+        
+        stats[statName] = {
+            value: oneAttribute
+        }
+    });
+    return stats;
+}
+
 function generateCharacter() {
     const background = generateCharacterAspect(backgroundsData);
     const name = generateCharacterAspect(background.names);
@@ -30,6 +46,7 @@ function generateCharacter() {
     const promptAnswers1 = generateCharacterAspect(background.promptAnswers1);
     const promptTitle2 = background.promptTitle2;
     const promptAnswers2 = generateCharacterAspect(background.promptAnswers2);
+    const attributes = generateAttributes();
     
     return {
         background,
@@ -38,7 +55,8 @@ function generateCharacter() {
         promptTitle1,
         promptAnswers1,
         promptTitle2,
-        promptAnswers2
+        promptAnswers2,
+        attributes
     }
 }
 
@@ -47,7 +65,10 @@ btnCreateCharacter.addEventListener('click', () => {
 
     displayCharacter.innerHTML = `
         <h2>${character.name} the ${character.background.title}</h2>
-        ${character.background.description}
+        STR ${character.attributes.STR.value},
+        DEX ${character.attributes.DEX.value},
+        WIL ${character.attributes.WIL.value}
+        <br><br>${character.background.description}
         <h3>Gear</h3>
         ${character.gear.join(", ")}
         <br><br>${character.promptTitle1}
