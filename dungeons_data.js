@@ -135,3 +135,95 @@ dungeon_history_ruination_cause = [
   "Turned to Stone",
   "Unresolved Spirits"
 ]
+
+dungeon_denizens_traits_virtues = [
+  "compassionate",
+  "courageous",
+  "creative",
+  "deductive",
+  "honest",
+  "incisive",
+  "incorruptible",
+  "individualistic",
+  "loyal",
+  "methodical",
+  "polite",
+  "practical",
+  "resilient",
+  "scholarly",
+  "self-sufficient",
+  "solid",
+  "studious",
+  "suave",
+  "unwavering",
+  "witty"
+]
+
+dungeon_denizens_traits_vices = [
+  "absent-minded",
+  "aloof",
+  "critical",
+  "cynical",
+  "greedy",
+  "impulsive",
+  "inflexible",
+  "naive",
+  "obstinate",
+  "passive",
+  "pedantic",
+  "perfectionist",
+  "sarcastic",
+  "selfish",
+  "skeptical",
+  "stubborn",
+  "superficial",
+  "unfocused",
+  "unimaginative",
+  "vain"
+]
+
+dungeon_factions_goals = [
+  "ascension",
+  "creation",
+  "destruction",
+  "domination",
+  "enlightenment",
+  "exploration",
+  "growth",
+  "innovation",
+  "justice",
+  "knowledge",
+  "liberation",
+  "peace",
+  "power",
+  "preservation",
+  "protection",
+  "redemption",
+  "revenge",
+  "survival",
+  "transformation",
+  "wealth"
+]
+
+dungeon_factions_obstacles = [
+  "conflict",
+  "corruption",
+  "cost",
+  "danger",
+  "decay",
+  "discord",
+  "division",
+  "dogma",
+  "exposure",
+  "factionalism",
+  "fear",
+  "ignorance",
+  "incompetence",
+  "injustice",
+  "isolation",
+  "opposition",
+  "sacrifice",
+  "stagnation",
+  "tradition",
+  "weakness"
+]
