@@ -1,4 +1,4 @@
-dungeon_purpose_original_use = [
+dungeon_history_purpose_original_use = [
   "Ancestral Rites",
   "Arcane Library",
   "Astral Trading Hub",
@@ -21,7 +21,7 @@ dungeon_purpose_original_use = [
   "Treasure Horde"
 ]
 
-dungeon_purpose_built_by = [
+dungeon_history_purpose_built_by = [
   "A Fallen Hero",
   "A Fanatical Cult",
   "A Forgotten Empire",
@@ -42,4 +42,96 @@ dungeon_purpose_built_by = [
   "Opulent Merchants",
   "Pilgrims to a Dead God",
   "Rogue Scholars"
+]
+
+dungeon_history_construction_entrance = [
+  "A Creature’s Lair",
+  "A Dream",
+  "A Massive Tree",
+  "A Well",
+  "An Enormous Grave",
+  "Behind a Waterfall",
+  "Between Menhirs",
+  "Cave",
+  "Center of a Maze",
+  "Cliff door",
+  "Hollow Statue",
+  "Illusory Wall",
+  "Mine Shaft",
+  "Sinking Sand",
+  "Skyward Beam of Light",
+  "Starlight Path",
+  "Through a Painting",
+  "Under a Bridge",
+  "Underwater Tunnel",
+  "Veil of Mist"
+]
+
+dungeon_history_construction_composition = [
+  "Bone",
+  "Coral",
+  "Crystal",
+  "Earth",
+  "Ethereal Fabric",
+  "Flesh",
+  "Floating Platforms",
+  "Fungi",
+  "Glass",
+  "Ice",
+  "Living Plants",
+  "Marble",
+  "Metal",
+  "Obsidian",
+  "Petrified Wood",
+  "Sand",
+  "Shadow Material",
+  "Stone",
+  "Webs",
+  "Wood"
+]
+
+dungeon_history_ruination_condition = [
+  "Corpse",
+  "Crumbling",
+  "Cursed",
+  "Desecrated",
+  "Devoured",
+  "Displaced",
+  "Divided",
+  "Frozen",
+  "Haunted",
+  "Infested",
+  "Overgrown",
+  "Overpopulated",
+  "Petrified",
+  "Plundered",
+  "Poisoned",
+  "Scorched",
+  "Shrouded in Mist",
+  "Submerged",
+  "Unending",
+  "Warped"
+]
+
+dungeon_history_ruination_cause = [
+  "Alchemical Accident",
+  "Ancient Curse",
+  "Cataclysmic Flood",
+  "Civil War",
+  "Competing Rituals",
+  "Consumed by a Beast",
+  "Disease",
+  "Hedonism",
+  "Invasion",
+  "Long-Term Abandonment",
+  "Magic Gone Awry",
+  "Magical Seal",
+  "Natural Disaster",
+  "Natural Erosion",
+  "Obfuscation",
+  "Overrun with Monsters",
+  "Sudden Change in Climate",
+  "Teleported to Another Realm",
+  "Turned to Stone",
+  "Unresolved Spirits"
 ]
