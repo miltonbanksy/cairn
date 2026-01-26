@@ -11,6 +11,7 @@ html {
 
 .column {
     flex: 1;
+    min-width: 200px;
     padding: 1rem;
     background-color: bisque;
     border-radius: 20px;

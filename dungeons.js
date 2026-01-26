@@ -55,14 +55,34 @@ btnCreateDungeon.addEventListener('click', () => {
 const btnCreateRoom = document.getElementById('btn-create-room');
 const displayRoom = document.getElementById('display-room');
 
-function createRoomType() {
-    
-}
-
 function createRoom() {
-    const roomType = createRoomType();
+    const roll = roll1dx(6);
+    const index = dungeonRooms.find(r => r.roll <= roll);
+    const roomType = index.room.type;
+    const title1 = index.room.title1;
+    const title2 = index.room.title2;
+    const detail1Index = Math.floor(Math.random() * index.room.data1.length);
+    const detail1 = index.room.data1[detail1Index];
+    const detail2Index = Math.floor(Math.random() * index.room.data2.length);
+    const detail2 = index.room.data2[detail2Index];
+
+    console.log(roomType, detail1)
+
+    return {
+        roomType,
+        title1,
+        title2,
+        detail1,
+        detail2
+    }
 }
 
 btnCreateRoom.addEventListener('click', () => {
     const objRoom = createRoom();
+
+    displayRoom.innerHTML = `
+        <h2>Room: ${objRoom.roomType}</h2>
+        <br>${objRoom.title1}: ${objRoom.detail1}
+        <br><br>${objRoom.title2}: ${objRoom.detail2}
+    `;
 });
