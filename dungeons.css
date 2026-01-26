@@ -1,0 +1,17 @@
+html {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+}
+
+.flex-container {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+    background-color: bisque;
+    border-radius: 20px;
+}

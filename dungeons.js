@@ -51,3 +51,18 @@ btnCreateDungeon.addEventListener('click', () => {
         Goal: ${objDungeon.factionGoals}, Obstacle: ${objDungeon.factionObstacles}
     `;
 });
+
+const btnCreateRoom = document.getElementById('btn-create-room');
+const displayRoom = document.getElementById('display-room');
+
+function createRoomType() {
+    
+}
+
+function createRoom() {
+    const roomType = createRoomType();
+}
+
+btnCreateRoom.addEventListener('click', () => {
+    const objRoom = createRoom();
+});
