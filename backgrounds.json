@@ -281,51 +281,163 @@
     },
     {
         "title": "Foundling",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "An odd birthmark, a strange smell: somehow, the touch of elsewhere still lingers. Wherever you are, you have trouble fitting in. Roll on the Omens table (even if you’re not the youngest player), but keep the results private for now.",
+        "names": [
+            "Faunus",
+            "Snowdrop",
+            "Wisp",
+            "Silverdew",
+            "Brim",
+            "Solstice",
+            "Steeleye",
+            "Artea",
+            "Gossamer",
+            "Hazel"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Salt Pouch",
+            "Heirloom Amulet (petty, glows in the presence of magic)",
+            "Sling (d6)",
+            "Dagger (d6)"
+        ],
+        "promptTitle1": "Who took you in?",
+        "promptAnswers1": [
+            "An old hunter. You were both quite happy, until it all ended. Take a Weathered Longbow (d8, bulky) and a Leather Jerkin (1 Armor).",
+            "A wizened apothecary, who taught you the healing arts but maintained a clinical detachment. Take a Healing Unguent (restores d4 STR, 1 use).",
+            "A druid, who taught you the language of trees. When it came time to , you took with you only a Gnarled Staff (d8) and left a promise that one day you would return.",
+            "A gruff blacksmith from a sleepy river town. You were always kept at arm’s length. Now the forge is cold, and you’ve moved on. Take a Smith’s Apron (petty) and a set of Oft-mended Chain Mail (2 Armor, bulky).",
+            "A troupe of traveling entertainers. For a time, they were like family to you. One day you woke up and they were gone with no explanation. Take a Storybook, a Dagger (d6), and some burning questions.",
+            "The monks of a secluded forest monastery. When their rules became too strict, and you snuck away. Take a Monk’s Habit (warm, petty) and a Spellbook of Control Plants. Control Plants: Nearby plants and trees obey you and gain the ability to move at a slow pace. Leaves grow along the spine, and it smells faintly of decay."
+        ],
+        "promptTitle2": "What keeps bad tidings at bay?",
+        "promptAnswers2": [
+            "Pipeweed. Your good luck charm. Conversations tend to flow more easily after a smoke. 6 uses.",
+            "Stink Jar. Shattering this jar releases an odor so foul all nearby must make a STR save or immediately vomit. 1 use.",
+            "Ivy Worm. A green worm often mistaken for a weed. Swallowed whole, it absorbs any toxins or rot in the body before exiting through the usual way.",
+            "Dream Stone. A smooth blue stone that helps recall dreams more clearly. Overuse can cause dream-addiction.",
+            "Drowning Rod. A finger-sized wooden stick that doubles in size each time it is fully submerged in water. It does not shrink down again.",
+            "Rabbit’s Foot. You were wearing it when they found you. They say it is the foot of she who left you and that it protects you from witch magic. Petty."
+        ]
     },
     {
-        "title": "Fungal Keeper",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "title": "Fungal Forager",
+        "description": "You follow the whisperings of the deep earth, the rhythmic pulse of the mycelium forest that grows beneath the surface. The dark holds no terror for you. Also, you really love mushrooms.",
+        "names": [
+            "Unther",
+            "Woozy",
+            "Hilda",
+            "Current",
+            "Leif",
+            "Ratan",
+            "Mourella",
+            "Lal",
+            "Per",
+            "Madrigal"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Sharpened Trowel (d6)",
+            "Candle Helmet (+1 Armor, dim, 6 uses)",
+            "Rope (25ft)",
+            "Metal Pail"
+        ],
+        "promptTitle1": "What strange fungus did you discover?",
+        "promptAnswers1": [
+            "Shrieking Trumpet. When exposed to light, it screams so loudly that all nearby attacks (including your own) are impaired. 2 uses.",
+            "Torch Fungus. When crushed, it creates a cold blue light for a short while. 2 uses.",
+            "Murderous Truffle. Pungent, highly toxic, and very rare (worth 50gp to assassins). Illegal pretty much everywhere. 1 use.",
+            "Hellcap. Exposure to its aroma causes intense nausea and vomiting. Either way, it clears the room. Bottled (1 use).",
+            "Sproutcup. Ingest to shrink down to the size of a mouse. (Your belongings stay the same size.) You return to normal size within the hour, often in fits and starts. 1 use.",
+            "Rootflower. A white fungus found only on corpses deep underground. Ingest to restore d6 WIL. You will dream of the dead and their stories. 1 use."
+        ],
+        "promptTitle2": "What keeps you sane, even in utter darkness?",
+        "promptAnswers2": [
+            "Glowsnail. Casts a soft, bioluminescent light. Feeds on one ration every two days.",
+            "Silk Moth Shawl. A weatherproof blanket, it can also douse a fire without being damaged.",
+            "Milkflower. A gentle stimulant. Chewing it makes you immune to panic for the next hour. 3 uses.",
+            "Luxcompass. Hums softly as it moves closer to the Sun. Eventually the noise becomes unbearably loud.",
+            "Sloth-Tarp. A tough and weatherproof fabric, useful for hanging off trees. When inside, you have +1 Armor.",
+            "Miner’s Grease. Great for dislodging a gem, tool, or limb from a tight crack. Highly explosive. 3 uses."
+        ]
     },
     {
         "title": "Greenwise",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You delve deep into the Wood, prying its secrets from between rough boughs and whispering leaves. To this verdant kingdom, you are no mere scholar but its confidant as well.",
+        "names": [
+            "Gunther",
+            "Moss",
+            "Fern",
+            "Lichen",
+            "Root",
+            "Willow",
+            "Sage",
+            "Yarrow",
+            "Rowan",
+            "Ash"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Iron Pot",
+            "Root Knife (d6)",
+            "Healing Salve (restore 1d4 STR, 1 use)",
+            "Twine Bauble (petty, Ward once per day) Ward: A silver circle 50ft across appears on the ground. Choose one species that cannot cross it."
+        ],
+        "promptTitle1": "How has the Wood failed you ?",
+        "promptAnswers1": [
+            "An ill-tempered forest spirit cursed you for stealing, marking you as an enemy of their kind. Take a Bezoar Stone. Ingesting it cures any poison (1 use, unless retrieved).",
+            "A close friend disappeared into the forest. Now you see their face in any tea you brew. Take a Soporific Concoction (3 uses).",
+            "You were poisoned, losing your sense of taste and smell. You can now withstand noxious fumes and always carry Antitoxin (2 uses).",
+            "Your radical experiments turned your skin green, and you now gain nourishment as a plant. You don’t need Rations, but a day without sufficient sunlight and water leaves you deprived.",
+            "Your impressive corpseflower won a local contest then promptly killed a judge. You fled, but not without the Prize Money (100gp) and a warrant for your arrest.",
+            "You created a restorative tincture that also causes accidental infertility. Take a Healing Potion that completely restores STR. Only you know of its unintended side-effects."
+        ],
+        "promptTitle2": "What keeps you safe while in the Wood?",
+        "promptAnswers2": [
+            "Amadou. A vermilion fungus that catches fire quite easily. 3 uses.",
+            "Delphinium. Breathe water for up to one hour. 1 use, but can be divided into fractional doses.",
+            "Tacky Stalk. A woody reed that hardens into a permanent adhesive when chewed. 2 uses.",
+            "Wisp Lantern. Caged in wrought iron, provides a dim light so long as the wisp is able to feed on nearby pain and fear.",
+            "Seed Bomb. A canvas sack filled with seeds that explode on impact. d6 damage (blast, 3 uses).",
+            "Briarvine. Entangles any creature up to horse size (STR to break free). Reusable."
+        ]
     },
     {
         "title": "Half-Witch",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "Born of both the mortal world and the unseen, you are an enigma to some and feared by many. Yours is the tale of what happens when two worlds collide.",
+        "names": [
+            "Solena",
+            "Veles",
+            "Bryn",
+            "Sabine",
+            "Razvan",
+            "Rowena",
+            "Galen",
+            "Nyx",
+            "Vex",
+            "Iwan"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Spellbook (Thicket: A thicket of trees and dense brush up to 50ft wide suddenly sprouts up. Wrapped in vines that must be destroyed again with each use.)",
+            "Iron Dagger (d6)",
+            "Herbs Pouch (restore 1 STR, 3 uses)",
+            "Ghillie Suit"
+        ],
+        "promptTitle1": "What did you bring back from the Unseelie Court?",
+        "promptAnswers1": [
+            "A Black Rose Fiddle (bulky). Its music causes intense sadness and immobility in nearby mortals. (Others are merely fascinated.) You don’t know how to play.",
+            "Paper legs. You are extremely light, and can fall a few stories without getting hurt. Try to avoid tearing them or getting them wet.",
+            "A Living Nightmare that dwells within you but manifests whenever you are in danger. It has your same Attributes and HP and attacks with claws (d8+d8). It disappears on Critical Damage (take 1d4 WIL damage), re-appearing again on the next full moon.",
+            "A Raven Familiar [8 HP, 3 STR, 11 DEX, 13 WIL, beak, (d6)]. It speaks as an intelligent being and is entirely devoted to you.",
+            "A Briar Thorn. It can pierce any organic material (quite painfully) but when removed leaves no trace of the intrusion.",
+            "A Fae creature’s True Name. Use it to summon its owner for an act of great service, but only once. It could also fetch a hefty price, from the right buyer."
+        ],
+        "promptTitle2": "What concoction do you carry, and what rare ingredients did you gather to make it?",
+        "promptAnswers2": [
+            "Rebirth Ash. Remnants of a bark spirit. Sprinkle to reignite a fire that has died or return to life a creature that has died only moments before. 3 uses.",
+            "Glamour Feather. Plume of a firebird. Can make any creature appear convincingly as someone (or something) else. 1 use.",
+            "Hawthorn Seed. An acorn from the other side, gathered on the spring equinox. When planted, it sprouts a luxurious shelter, collapsing at moonrise the next day. 1 use.",
+            "Stonetree Sap. Sap obtained in exchange for blood. Hardens when rubbed on any surface (+1 Armor). 3 uses.",
+            "Nightdust Powder. Made from the ritual burning of six owls. When tossed in the air, day turns to night for a short while. 2 uses.",
+            "Hex Stone. Gathered from a river that flows from the other side. Removed from its iron tin, it can absorb the effects of an active magical effect. If destroyed, the magic is released. 1 use."
+        ]
     },
     {
         "title": "Hexenbane",
