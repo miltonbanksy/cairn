@@ -281,7 +281,7 @@
     },
     {
         "title": "Foundling",
-        "description": "An odd birthmark, a strange smell: somehow, the touch of elsewhere still lingers. Wherever you are, you have trouble fitting in. Roll on the Omens table (even if you’re not the youngest player), but keep the results private for now.",
+        "description": "An odd birthmark, a strange smell: somehow, the touch of elsewhere still lingers. Wherever you are, you have trouble fitting in. Roll on the Omens table (even if you're not the youngest player), but keep the results private for now.",
         "names": [
             "Faunus",
             "Snowdrop",
@@ -305,9 +305,9 @@
             "An old hunter. You were both quite happy, until it all ended. Take a Weathered Longbow (d8, bulky) and a Leather Jerkin (1 Armor).",
             "A wizened apothecary, who taught you the healing arts but maintained a clinical detachment. Take a Healing Unguent (restores d4 STR, 1 use).",
             "A druid, who taught you the language of trees. When it came time to , you took with you only a Gnarled Staff (d8) and left a promise that one day you would return.",
-            "A gruff blacksmith from a sleepy river town. You were always kept at arm’s length. Now the forge is cold, and you’ve moved on. Take a Smith’s Apron (petty) and a set of Oft-mended Chain Mail (2 Armor, bulky).",
+            "A gruff blacksmith from a sleepy river town. You were always kept at arm's length. Now the forge is cold, and you've moved on. Take a Smith's Apron (petty) and a set of Oft-mended Chain Mail (2 Armor, bulky).",
             "A troupe of traveling entertainers. For a time, they were like family to you. One day you woke up and they were gone with no explanation. Take a Storybook, a Dagger (d6), and some burning questions.",
-            "The monks of a secluded forest monastery. When their rules became too strict, and you snuck away. Take a Monk’s Habit (warm, petty) and a Spellbook of Control Plants. Control Plants: Nearby plants and trees obey you and gain the ability to move at a slow pace. Leaves grow along the spine, and it smells faintly of decay."
+            "The monks of a secluded forest monastery. When their rules became too strict, and you snuck away. Take a Monk's Habit (warm, petty) and a Spellbook of Control Plants. Control Plants: Nearby plants and trees obey you and gain the ability to move at a slow pace. Leaves grow along the spine, and it smells faintly of decay."
         ],
         "promptTitle2": "What keeps bad tidings at bay?",
         "promptAnswers2": [
@@ -316,7 +316,7 @@
             "Ivy Worm. A green worm often mistaken for a weed. Swallowed whole, it absorbs any toxins or rot in the body before exiting through the usual way.",
             "Dream Stone. A smooth blue stone that helps recall dreams more clearly. Overuse can cause dream-addiction.",
             "Drowning Rod. A finger-sized wooden stick that doubles in size each time it is fully submerged in water. It does not shrink down again.",
-            "Rabbit’s Foot. You were wearing it when they found you. They say it is the foot of she who left you and that it protects you from witch magic. Petty."
+            "Rabbit's Foot. You were wearing it when they found you. They say it is the foot of she who left you and that it protects you from witch magic. Petty."
         ]
     },
     {
@@ -356,7 +356,7 @@
             "Milkflower. A gentle stimulant. Chewing it makes you immune to panic for the next hour. 3 uses.",
             "Luxcompass. Hums softly as it moves closer to the Sun. Eventually the noise becomes unbearably loud.",
             "Sloth-Tarp. A tough and weatherproof fabric, useful for hanging off trees. When inside, you have +1 Armor.",
-            "Miner’s Grease. Great for dislodging a gem, tool, or limb from a tight crack. Highly explosive. 3 uses."
+            "Miner's Grease. Great for dislodging a gem, tool, or limb from a tight crack. Highly explosive. 3 uses."
         ]
     },
     {
@@ -385,7 +385,7 @@
             "An ill-tempered forest spirit cursed you for stealing, marking you as an enemy of their kind. Take a Bezoar Stone. Ingesting it cures any poison (1 use, unless retrieved).",
             "A close friend disappeared into the forest. Now you see their face in any tea you brew. Take a Soporific Concoction (3 uses).",
             "You were poisoned, losing your sense of taste and smell. You can now withstand noxious fumes and always carry Antitoxin (2 uses).",
-            "Your radical experiments turned your skin green, and you now gain nourishment as a plant. You don’t need Rations, but a day without sufficient sunlight and water leaves you deprived.",
+            "Your radical experiments turned your skin green, and you now gain nourishment as a plant. You don't need Rations, but a day without sufficient sunlight and water leaves you deprived.",
             "Your impressive corpseflower won a local contest then promptly killed a judge. You fled, but not without the Prize Money (100gp) and a warrant for your arrest.",
             "You created a restorative tincture that also causes accidental infertility. Take a Healing Potion that completely restores STR. Only you know of its unintended side-effects."
         ],
@@ -422,12 +422,12 @@
         ],
         "promptTitle1": "What did you bring back from the Unseelie Court?",
         "promptAnswers1": [
-            "A Black Rose Fiddle (bulky). Its music causes intense sadness and immobility in nearby mortals. (Others are merely fascinated.) You don’t know how to play.",
+            "A Black Rose Fiddle (bulky). Its music causes intense sadness and immobility in nearby mortals. (Others are merely fascinated.) You don't know how to play.",
             "Paper legs. You are extremely light, and can fall a few stories without getting hurt. Try to avoid tearing them or getting them wet.",
             "A Living Nightmare that dwells within you but manifests whenever you are in danger. It has your same Attributes and HP and attacks with claws (d8+d8). It disappears on Critical Damage (take 1d4 WIL damage), re-appearing again on the next full moon.",
             "A Raven Familiar [8 HP, 3 STR, 11 DEX, 13 WIL, beak, (d6)]. It speaks as an intelligent being and is entirely devoted to you.",
             "A Briar Thorn. It can pierce any organic material (quite painfully) but when removed leaves no trace of the intrusion.",
-            "A Fae creature’s True Name. Use it to summon its owner for an act of great service, but only once. It could also fetch a hefty price, from the right buyer."
+            "A Fae creature's True Name. Use it to summon its owner for an act of great service, but only once. It could also fetch a hefty price, from the right buyer."
         ],
         "promptTitle2": "What concoction do you carry, and what rare ingredients did you gather to make it?",
         "promptAnswers2": [
@@ -441,110 +441,362 @@
     },
     {
         "title": "Hexenbane",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You are a mere digit on the unerring hand of justice. You go where others fear to tread, unyielding and unbroken.",
+        "names": [
+            "Percival",
+            "Felix",
+            "Isolde",
+            "Wolfram",
+            "Aldric",
+            "Eira",
+            "Oswin",
+            "Ivor",
+            "Brunhilda",
+            "Beatrix"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Vestments of the Order (petty)",
+            "Blessed Tinctures",
+            "Silver Knife (d6)",
+            "Crossbow (d8, bulky)"
+        ],
+        "promptTitle1": "To which order do you belong?",
+        "promptAnswers1": [
+            "Order of the Crossroads. Take a Pocket Leyfinder. It points to nearby ley lines and other sources of arcane power. If you lose it, the punishment is death.",
+            "Order of the Bleeding Star. Take a Star-Iron Mace (d8). It shines faintly in darkness and becomes very hot in the presence of witchcraft.",
+            "Order of the Glass Sigil. Take a short sword (d8) and chainmail (2 Armor, bulky). You have contacts in most towns (the more rural, the better) willing to provide aid, food, or even weapons.",
+            "Order of the Blank Eye. Take a Voidglass Shard. Peer through it to see invisible marks, creatures, and other magical effects. Lose the use of your eye for an hour afterwards (you are deprived).",
+            "Order of Canaas. Once per day, you can change into a wolf. Take a Quicksilver Chain. Without it, you are unable to shift back.",
+            "Order of the Silent Veil. Take a Quell Stone (2 uses) wrapped in burlap. Extinguishes any nearby flames once exposed to air."
+        ],
+        "promptTitle2": "What was your vow?",
+        "promptAnswers2": [
+            "Honesty. Choose a weapon type (blunt, blade, etc). Attacks against you of this type are impaired. If your vow is broken, you lose d4 WIL.",
+            "Poverty. You carry the Disassemble Spellbook. Only you can use it. If your vow is broken, it explodes (d12 STR damage). Disassemble: Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them. Regenerates any torn or defaced pages.",
+            "Selflessness. You are immune to mind-altering magical effects, such as charm, hatred, frenzy, and so on. If you break this vow, you lose d6 WIL.",
+            "Mercy. Choose a weapon type (blunt, blade, etc). Attacks with this weapon are enhanced. If your vow is broken, you can never use that weapon type again.",
+            "Charity. Once per day you can shrug off a Fatigue. If your vow is ever broken, you permanently lose one inventory slot.",
+            "Valor. The first time you inflict Critical Damage, you receive +d4 HP, returning to the previous limit at the end of combat. If your vow is broken, you die."
+        ]
     },
     {
         "title": "Jongleur",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "What inspires the soul more than song, words, and spectacle? Why practice for years to master the arcane when you've already got real magic inside?",
+        "names": [
+            "Jax",
+            "Selene",
+            "Baladria",
+            "Ada",
+            "Mort",
+            "Saylor",
+            "Tripp",
+            "Lantos",
+            "Echo",
+            "Jubilo"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Costume",
+            "Simple Instrument (Pipes, Lute, etc.)",
+            "Lucky Jerkin (+1 Armor)",
+            "Sling (d6)"
+        ],
+        "promptTitle1": "What happened at your final performance? ",
+        "promptAnswers1": [
+            "Despite your training in the deadly arts, an actor died and you were blamed. Take a light-weight Rapier (d6) and a false identity.",
+            "The crowd loved your catchy tune about a noble and his romantic failings. The noble in question, not so much. Take the Read Mind Spellbook and a warrant for your arrest. Read Mind: You can hear the surface thoughts of nearby creatures. Long-term possession can cause the reader to mistake the thoughts of others as their own.",
+            "Your debut composition reduced the audience to a gibbering mess, murmuring of bright creatures descending from the night sky. Later you noticed that the notes resembled stellar constellations. Take a Book On Astronomy, and a lot of questions.",
+            "You mocked a forgotten trickster god and were cursed for it. You speak only in perfect rhyme. Ironically, this has only made you more popular among your peers. Take a Thesaurus (20gp). Without it, you are deprived.",
+            "You were scarred in an on-stage accident. The crowd cheered, thinking it was part of the act. Take well-worn Stage Mail (1 Armor), a memorable scar, and a fear of applause.",
+            "Your respectable puppeteering skills were matched only by your mimicry. You were so good you were branded a witch (literally) and banished. Take an Uncanny Hand-Puppet and a Rabbit Skull (petty) that protects against charms."
+        ],
+        "promptTitle2": "What trinket were you unable to leave behind?",
+        "promptAnswers2": [
+            "False Cuffs. Comfortable, realistic-looking cuffs. Only you know the trick to get out of them.",
+            "Pocket Theatre. A set of small puppets and a folding stage. Good for quick distractions.",
+            "Ghost Violin. A dark-gray violin that plays a haunting tune, mirrored by an invisible, distant twin.",
+            "Tragic Tales. Banned in proper company, this book becomes less bawdy and more harrowing towards the end. Worth 100gp.",
+            "Mythos Mask. A plaster mask that allows one to take on a monster's countenance. Once it comes off, add a Fatigue.",
+            "Rebreak Glass. A wine flute that can be broken multiple times, reforming after 24 hours. Makes a really loud noise."
+        ]
     },
     {
         "title": "Kettlewright",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You are known by the smell of molten metal and the jingle of tin. You are no mere merchant but an artisan of fire and metal.",
+        "names": [
+            "Fergus",
+            "Eon",
+            "Bram",
+            "Idris",
+            "Hester",
+            "Darragh",
+            "Seren",
+            "Rnn",
+            "Berek",
+            "Lorenz"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Pincers",
+            "Roll of Tin",
+            "Gloves (petty)",
+            "Hammer (d6)"
+        ],
+        "promptTitle1": "What is your trade?",
+        "promptAnswers1": [
+            "You build small contraptions for local guilds (and don't ask too many questions). Take an extra 40gp and a wanted poster with your face on it. Given time and materials, you can open almost any door or vault.",
+            "You deal in home goods and tools, hawking your wares to townspeople across the lands. Take 20gp worth of items from the gear table. You are fluent in the Traveler's Cant.",
+            "You were a military smelter, before peace destroyed your livelihood. Take a smelting hammer (d10, bulky) and a tin helm (+1 Armor). Given time and adequate materials, you can repair armor.",
+            "You sell rare and quality items to monasteries and nobles alike. Take a Spyglass, a Necklace (petty) worth 20gp, and a Scroll of Mirrorwalk (petty).",
+            "You offer protection as a service, quietly watching for threats as money exchanges hands. You start with +d4 HP, and carry a Long Sword (d10, bulky) and a Gambeson (+1 Armor).",
+            "You scavenge raw tin and iron from battlefields, pulling teeth from still-twitching corpses. Start with a young Donkey (+4 slots, slow), a Crossbow (d8 damage, bulky), and a Saw (d6)."
+        ],
+        "promptTitle2": "What never fails to get you out of trouble?",
+        "promptAnswers2": [
+            "Fire Eggs. Six small pellets made of sea salt, wood, and crockery-dust. They explode at low heat (d8, blast) but the flames dissipate quickly.",
+            "Black Tar. Versatile: both sticky and highly flammable. 3 uses.",
+            "Spiked Boots. Cracks heads (d8) as easily as it does ice and muck. Travel is also a bit slower, but easier.",
+            "Tinker's Paste. Seals shut any fist-sized opening. 3 uses.",
+            "Fireworks. A dazzling albeit dangerous display. Enough explosive material to blow off a finger or three. 2 uses remain.",
+            "Carrion Cat. A clever pet, small enough to hide in your pack (bulky), but strong enough to scare off smaller predators. Requires one Ration a day, and it must be meat."
+        ]
     },
     {
         "title": "Marchguard",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "Bound by blood Oath to patrol the border and protect the realm. Once sworn, the Oath cannot be broken. The Guard always finds their own.",
+        "names": [
+            "Gann",
+            "Light",
+            "Saoirse",
+            "Frost",
+            "Thorn",
+            "Reed",
+            "Dirk",
+            "Ragnar",
+            "Brie",
+            "Aasim"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Lantern",
+            "Oil Can (6 uses)",
+            "Long Sword (d10, bulky)",
+            "Boiled Leather (1 Armor)"
+        ],
+        "promptTitle1": "Why did you take the Oath?",
+        "promptAnswers1": [
+            "Your family has a long tradition of serving, and you were trained from an early age on how to survive in the wild. When taking the Supply action, your yield increases by one step (e.g. 1d4 > 1d6).",
+            "As a convict, the Oath was simply a means of avoiding punishment. Take a set of Lockpicks and the Key (petty) to a safehouse.",
+            "Noble-born, you joined to escape family trouble. Take a Goosefelt Tarp (fits two) that you stole before leaving home.",
+            "When your family lost everything, you took the Oath to avoid becoming a burden. Take extra Rations (3 uses) and a brace of Throwing Knives (d6).",
+            "Your life was saved by a member of the Marchguard, and you were inspired to join their ranks. Take a Snare Trap and a Sketchbook filled with detailed drawings.",
+            "You were in a dark place and decided that your life needed a little direction. You're still not so sure it was the right choice. Take an Oilskin Coat and Mapping Paper."
+        ],
+        "promptTitle2": "What do you carry as proof of your Oath?",
+        "promptAnswers2": [
+            "Impressive Pin. A metal badge of honor from the Guard. It can open doors but leaves a trail. Petty.",
+            "Oath Compass. Points not towards North, but instead to the nearest member of the Guard. It also lets you know when they're getting close.",
+            "Pullstones. Two jet-black stones. When separated, the stones will always roll toward one another.",
+            "Fireflask. Highly alcoholic, yet strangely delicious. When thrown, it creates a wall of flames 10ft high that burns out after a few minutes. 1 use.",
+            "Pain Band. Touch an injured creature to transfer their wounds to you. (Exchange their lost STR with your own.) Recharge: Wear the ring while in perfect health. You will lose 1 STR, permanently. Petty.",
+            "Poacher's Woe. Strongly-scented arrows (3 uses). The scent is powerful enough to track with ease."
+        ]
     },
     {
         "title": "Mountebank",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "Wits are your sharpest weapon, a facade your strongest shield. But when you do lose, you lose badly.",
+        "names": [
+            "Ambrose",
+            "Lucius",
+            "Beauregard",
+            "Cornelius",
+            "Aria",
+            "Toph",
+            "Indigo",
+            "Delphine",
+            "Solene",
+            "Noa"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Cart (+4 slots, bulky when pulled)",
+            "Trick Playing Cards",
+            "Fancy Hat (petty)",
+            "Cane Sword (d6)"
+        ],
+        "promptTitle1": "How was your fraud exposed?",
+        "promptAnswers1": [
+            "Your “patients” kept reporting miraculous recoveries, despite your lack of training. Start with Bandages (3 uses) and a knack for healing.",
+            "After seducing a wealthy patron, their family hired a criminal gang to retrieve you. You got away and need to lay low. Start with Beauty Cream, 2 uses. Apply to appear irresistibly beautiful for the next 12 hours.",
+            "You were a peddler of fake prophesies, but when one turned out to be true, it drew unwanted attention. Roll on the Omens table, but keep the result to yourself. Start with a concealable Knife (d6, petty).",
+            "Your latest stunt destroyed a priceless artifact and injured a dozen bystanders. Start with a Captain's Uniform (petty), a Ceremonial Sword (harmless, 60gp), and a Bouquet of Flowers.",
+            "You were cursed by a hedgewitch for fooling some innocent village folk. Magic acts unpredictably in your hands (WIL save to avoid disaster). If you are the target of magic, the same applies to its wielder.",
+            "Your “seances” with the dead were in actuality a ruse involving a cleverly hidden spellbook of Auditory Illusion. Inevitably, a patron discovered your secret. Start with the Spellbook and a bundle of scarves. Auditory Illusion: You create illusory sounds that seem to come from a direction of your choice. Produces random and occasionally inopportune sounds throughout the day."
+        ],
+        "promptTitle2": "What keepsake could always identify you?",
+        "promptAnswers2": [
+            "Royal Crest. Born into royalty, you chose a different life. The crest grants you access but also alerts your family of your whereabouts. Petty.",
+            "Miracle Oil. A smelly, slippery concoction. 2 uses.",
+            "Surgeon's Soap. A lye and ash block that makes skin temporarily transparent, revealing the anatomy within. 4 uses.",
+            "Goat Powder. Derived from the placenta of a baby goat. Temporarily cures any affliction, but symptoms return within hours.",
+            "Cursed Sapphire. Worth 200gp, it noticeably returns to your pocket shortly after you spend it. You can't seem to get rid of it.",
+            "Alchemical Tattoo. A dog, cat, or bird that can leave your body on demand. It follows your commands to the best of its abilities and can pass its injuries (as STR loss) back onto you. Petty."
+        ]
         },
     {
         "title": "Outrider",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "Your coin comes from escorting caravans, tracking fugitives, or lending your blade to a cause. You've been a savior, an executioner, a hero, and even a villain. Yours is not a solitary path, however: you'll always have your horse.",
+        "names": [
+            "Drake",
+            "Cyra",
+            "Keir",
+            "Darius",
+            "Valen",
+            "Rorik",
+            "Yara",
+            "Rui",
+            "Talon",
+            "Jory"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Long Sword (d10, bulky)",
+            "Leather Jerkin (1 Armor)",
+            "Crossbow (d8, bulky)",
+            "Spyglass"
+        ],
+        "promptTitle1": "What personal code or principle do you uphold?",
+        "promptAnswers1": [
+            "No innocent blood: No bystander will come to harm on your watch. Take a Steadymade Buckler (+1 Armor). While holding this shield, you cannot be moved so long as both feet are planted on firm ground.",
+            "Revere the tools of death: Weapons are to be respected and maintained. Take a Wyrmbone Whetstone. Following a half-hour ritual sharpening, attacks with the weapon are enhanced until STR damage is dealt.",
+            "To the death, always: You never back down from a fight, no matter the odds. Take a Death-Whistle, 1 charge. Its scream frightens away all who hear it (save WIL or flee). Recharge: Capture the final breath of a dying warrior.",
+            "Revere the dead: Death is a journey we all take, and it deserves respect. Take an extra 30gp. You always place two gold pieces on the eyelids of a slain foe. Somehow, you always find the coin.",
+            "Loyalty to the work: Your word is your bond. Once you've accepted a job, you see it through to the end. Take a weathered Tally Stick. Once a vow is marked onto its face, the stick hardens (d8) until it is complete. The stick will snap in half if the vow is ever broken.",
+            "Always pay your debts: You always repay what you owe, whether in coin or in kind. You expect nothing less from all others. Take a Blacked-Out Ledger, then roll a second time on the Bonds table."
+        ],
+        "promptTitle2": "What breed is your horse?",
+        "promptAnswers2": [
+            "Heavy Destrier. A beast built for war, an imposing creature. 8 HP, 1 Armor, hooves (d10+d10), +2 slots.",
+            "Blacklegged Dandy. Hardy and adaptable. Tough or Perilous terrain are one step easier. 6 HP. +4 slots.",
+            "Rivertooth. Impressively strong, capable of carrying heavy loads. 4 HP. +6 slots (only +2 slots if carrying two people).",
+            "Piebald Cob. Intelligent, it can understand simple commands and even has an instinct for danger. 6 HP. +4 slots.",
+            "Linden White. Highly trained and agile, it can perform intricate maneuvers in a time of need (no DEX save to flee). 4 HP. +3 slots.",
+            "Stray Fogger. Wild but very fast (even in Tough terrain). Rides light. 4 HP. +2 slots."
+        ]
     },
     {
         "title": "Prowler",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You are a specter in the night, a fleeting shadow that slips by its prey, unseen. Each kill is a test of cunning and animal determination, a contest between life and death. You know that one day you will lose. You look forward to it.",
+        "names": [
+            "Winda",
+            "Brielle",
+            "Theron",
+            "Chayse",
+            "Nuja",
+            "Dev",
+            "Raven",
+            "Arawan",
+            "Sable",
+            "Baruani"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Tarp",
+            "Boiled Leather (1 Armor)",
+            "Short Sword (d6)",
+            "Spring-Loaded trap (4 STR damage)"
+        ],
+        "promptTitle1": "What did you last hunt?",
+        "promptAnswers1": [
+            "A mock firefly, baiting water carriers with its glowing lure. Take an Alchemical Limb (d8, petty when worn) to replace the one it tore off and an Oil Can (6 uses). The limb is immune to heat and poison. Needs to be oiled daily..  ",
+            "An ice nettle, trapping and draining sheep. You lost your commission when the fungus you introduced killed half the flock. Take a Rime Seed (1 use). It freezes any body of water, no matter the size. Don't eat it..  ",
+            "A silver marsh crawler that killed someone close to you. You now carry its Tooth (petty) on a chain around your neck as a warning to others of its kind. The tooth hums softly when something is stalking you..  ",
+            "A malicious forest spirit that poisoned a homestead. You saved a Heartseed from the roots of a dying tree. (Plant it to create a new forest.) Also, take Iron Bracers (+1 Armor, bulky)..  ",
+            "A hollow wolf that had been frightening travelers. You took pity on the half-starved creature and nursed it back to health. Now it is loyal to you unto death. It is also a great tunneler. 5 HP, 11 STR, 13 DEX, 8 WIL, teeth (d6)..  ",
+            "An azure warbler. The gametes attract a sizeable profit, if properly extracted. You succeeded but left its nest to the wolves. Take a Paring Knife (d6), an extra 20gp, and a pang of regret."
+        ],
+        "promptTitle2": "What tool is always in your pack? ",
+        "promptAnswers2": [
+            "Fermented Spirits. Keeps you warm at the best of times and as an explosive at the worst. 3 Uses.",
+            "Trail Shaker. A noisy instrument that reveals nearby trails, even when deeply hidden.",
+            "Drowse Balm. A wax bar. If boiled in water, the steam acts as a soporific agent.",
+            "Spike and Cord. For traversing difficult terrain or for creating makeshift traps and structures.",
+            "Iron Rattle. A noisemaker for distracting or scaring your quarry. Sounds convincingly like a snake.",
+            "Hardening Glue. Makes any flat material (cloth, leather, sand) as hard as stone. Expensive (20gp a bottle, 3 uses)."
+        ]
     },
     {
         "title": "Rill-Runner",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You sing the stories of rivers and lakes, your talents soothing friends and the elements alike. You've seen more than most, but somehow it never seems to be enough.",
+        "names": [
+            "Gale",
+            "Piper",
+            "Brook",
+            "Adair",
+            "Stone",
+            "Dale",
+            "Wren",
+            "Cliff",
+            "Rain",
+            "Robin"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Water Shoes",
+            "Brigandine (1 Armor, bulky)",
+            "Compass",
+            "Dagger (d6)"
+        ],
+        "promptTitle1": "What songs are you best known for?",
+        "promptAnswers1": [
+            "The Tinker's Two-Step. A humorous fairy tale about a gift-giving traveler. Start with a Reed Whistle. Anyone in earshot must pass a WIL save to perform an act of violence.",
+            "The Sylph and Her Lover. A bawdy tale of lost love. Start with a Breeze Knot (3 charges). Creates a strong breeze. Recharge: Tie it to a mast during a storm.",
+            "Harper's Devotion. A sad, short tale about a musician that falls in love with a star. Start with a Celestial Lute. Reveals the constellations above, no matter the weather.",
+            "The Reed Fisher. A celebrated song about a massive carp that always seems to get away. Begin with a spool of River Twine (5 uses). Each dip into the river guarantees a catch, though it might not be pleasant.",
+            "Song of the Silver Stream. A wordless lullaby that mimics flowing water. Take a Stone Flute that can calm almost any river.",
+            "The Thrush and the Meadow. A moody tale told in alternating chorus. Start with a Feather Quill (1 use, petty). A map drawn with this quill reveals the most expedient course between any two points."
+        ],
+        "promptTitle2": "What pays your way across the land?",
+        "promptAnswers2": [
+            "Performance. Performing at taverns always yields both room and board. Sometimes you even get tips! Start with an extra 10gp.",
+            "Bodyguard. You are a protector for those afraid to travel alone. Start with a Rapier (d8).",
+            "Wares. You buy low and sell high, always making just enough to get by. Take a single item worth 20gp (or less) from the gear table.",
+            "Transport. You deliver “delicate” packages throughout the lands. You have at least one contact in any major town.",
+            "Sailor's Friend. Over troubled waters and dangerous winds, you always make sure a ship reaches its destination. For you, passage is always free.",
+            "Guide. You shepherd caravans and travelers across water-soaked lands. Start a map (petty) relevant to your next journey."
+        ]
     },
     {
         "title": "Scrivener",
-        "description": "",
-        "names": [],
-        "gear": [
-            ""
+        "description": "You copy ancient texts and illuminate manuscripts, recording the voices of the clever, the great, and the powerful. You will prove that the pen truly is mightier than the sword.",
+        "names": [
+            "Lazlo",
+            "Stilo",
+            "Akshara",
+            "Pisa",
+            "JiYun",
+            "Kalamos",
+            "Hugo",
+            "Shui",
+            "Kalam",
+            "Julius"
         ],
-        "promptTitle1": "",
-        "promptAnswers1": [],
-        "promptTitle2": "",
-        "promptAnswers2": []
+        "gear": [
+            "Quill & Ink",
+            "Blank Book",
+            "Awl (d6)",
+            "Badge (petty)"
+        ],
+        "promptTitle1": "What work did you keep for yourself?",
+        "promptAnswers1": [
+            "The Wild Tongue. A bundle of leather-bound scrolls. A seminal work, cataloging the hidden languages of beasts and how to understand them.",
+            "The Silent Symphony. Bound in fluorescent wrap. Very rare, it chronicles the subtle signs used by those employing invisibility magic.",
+            "A Treatise on the Abyss. A nondescript black book. An in-depth, largely theoretical text describing the Roots, as well as information about the location of a nearby Gate.",
+            "The Star Waltz. A comet-shaped clasp bound in a fine leather cover. Detailed astronomical charts, celestial movements, and stellar festivals. Highly valued (100gp) for its usefulness to travelers.",
+            "The Cathedral and the Canopy. Large-leaf binding over vellum. Nominally a children's storybook, the margins detail information about traveling, eating, and sleeping in the cloud forests.",
+            "Garden of Glass. Bound in the cover of another book. A heretical work, it describes the materials, procedures, and optimal locations required to open a Gate."
+        ],
+        "promptTitle2": "How do you transcribe sensitive information?",
+        "promptAnswers2": [
+            "Fib Ink. Glows when used to write true statements but fades if used to write false ones.",
+            "Cipher Stone. A pair of sharp black stones. Each one decrypts any message written by the other.",
+            "Everquill. A quill that writes on any surface. You still need ink. Petty.",
+            "Whisper Vial. Whisper a message into the vial, and it will play it back to whoever opens it next.",
+            "Sanguine Lens. Extracts blood from a target without their knowledge. A stolen drop placed on the eye reveals memories from the past day.",
+            "Echo Leaf. A blank parchment. Whomever unfurls it sees their actions of the day slowly revealed in a tight scrawl. Petty."
+        ]
     }
 ]
