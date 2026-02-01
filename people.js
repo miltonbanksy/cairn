@@ -18,3 +18,25 @@ const factionActionOutcome = [
   "Success - A goal is achieved, and no Advantages are lost.",
   "Major Success - A goal is achieved, and a new Advantage is found."
 ];
+
+// check the die rolls. Might be wrong.
+const terrainDifficulty = [
+    {
+        roll: 3,
+        difficulty: "Easy",
+        terrains: [ "Bluffs", "Dells", "Farmlands", "Fells", "Foothills", "Glens", "Grasslands", "Gulleys", "Heaths", "Lowlands", "Meadows", "Moors", "Pampas", "Pastures", "Plains", "Plateaus", "Prairies", "Savannas", "Steppes", "Valleys" ],
+        landmarks: [ "Broken Sundial", "Circle of Menhirs", "Circular Maze", "Cloud Stairway", "Dead Aqueduct", "Enormous Footprint", "Fallen Column", "False Oasis", "Giant’s Throne", "Glittering Cascade", "Golden Bridge", "Great Stone Face", "Great Waterwheel", "Heart Tree", "Opaque Lake", "Petrified Forest", "Pit of Cold Fire", "Silver Face", "Sinkhole", "Titanic Gate" ]
+    },
+    {
+        roll: 5,
+        difficulty: "Tough",
+        terrains: [ "Barrens", "Canyons", "Chaparral", "Coral Reefs", "Deserts", "Dunes", "Estuaries", "Fens", "Forests", "Heathlands", "Hills", "Mangroves", "Marshlands", "Moorlands", "Rainforests", "Scrublands", "Taiga", "Thickets", "Tundra", "Woodlands" ],
+        landmarks: [ "Algae Falls", "Basalt Columns", "Behemoth Graveyard", "Canyon Bridge", "Cinder Cones", "Flame Pits", "Forest of Arrows", "Frozen Waterfall", "Fungal Forest", "Half-Buried Ark", "Hanging Valley", "Inverted Lighthouse", "Leviathan Bones", "Massive Crater", "Massive Dung Ball", "Salt Flat Mirrors", "Shrouded Ziggurat", "Stalagmite Forest", "Sunken Colossus", "Titan’s Table" ]
+    },
+    {
+        roll: 6,
+        difficult: "Perilous",
+        terrains: [ "Alpine Meadows", "Bogs", "Boulders", "Caverns", "Cliffs", "Craters", "Crevasses", "Geysers", "Glaciers", "Gorges", "Hollows", "Ice Fields", "Jungles", "Lava Fields", "Mountains", "Peatlands", "Quagmires", "Ravine", "Swamps", "Wastelands" ],
+        landmarks: [ "Active Volcano", "Ammonia Caves", "Bone Mountain", "Crystalline Forest", "Dome of Darkness", "Enormous Hive", "Floating Object", "Inactive Automaton", "Land Scar", "Large Vents", "Magma Sculptures", "Man on the Mountain", "Meteor Garden", "Obsidian Needle", "Reverse Waterfall", "River of Sulfur", "Siren Stones", "Sky-Root", "Titanic Ribcage", "Weeping Bubble" ]
+    }
+]
